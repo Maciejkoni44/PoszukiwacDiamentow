@@ -1,6 +1,7 @@
 import random
 HP = 10
 points = 0
+wydarzenie = random.choice(["NPC", "diament", "Potwor", "Apteczka", "pusty", "potwor", "potwor", "potwor", "diament", "potwor", "potwor", "potwor", "potwor", "potwor", "potwor", "potwor", "potwor"])
 print("Wiaj w labiryncie Diamentow ")
 print("musisz miec 10 Points , zanim umrzesz")
 print("NA start Masz 10 HP i zero points")
@@ -30,9 +31,7 @@ while HP > 0 and points < 10:
         else:
             print("Niewejdziesz Niestac cie")
         continue
-
-    wydarzenie = random.choice(["NPC", "diament", "Potwor", "Apteczka", "pusty", "potwor", "potwor", "potwor", "diament", "potwor", "potwor", "potwor", "potwor", "potwor", "potwor", "potwor", "potwor"])
-    
+        
     if wydarzenie == "diament":
         points += 1 
         print(F"Znalazłeś diament! masz teraz {points} ")
