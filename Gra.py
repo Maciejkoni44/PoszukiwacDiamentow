@@ -24,7 +24,7 @@ while HP > 0 and points < 10:
                 HP += 3
             elif wybor == "3" and points >= 3:
                 points -= 3
-                wydarzenie.append("diament")
+                wydarzenia.append("diament")
                 print("Kupiłeś wykrywacz diametów. Powodzenia w szukaniu!  ")
             else:
                 print("Zła odpowiedz lub cie niestac biedaku ")
