@@ -18,10 +18,11 @@ while HP > 0 and points < 10:
             if wybor == "1" and points >= 2:
                 points -= 2
                 HP += 1
-                print("Kupiłeś dużą miksturę życia. Masz teraz", HP)
+                print("Kupiłeś małą miksturę życia. Masz teraz", HP)
             elif wybor == "2" and points >= 3:
                 points -= 3
                 HP += 3
+                print("Kupiłeś dużą miksturę życia. Masz teraz", HP)
             elif wybor == "3" and points >= 3:
                 points -= 3
                 wydarzenia.append("diament")
